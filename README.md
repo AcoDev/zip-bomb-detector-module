@@ -1,5 +1,11 @@
 # Zip Bomb Detector
 
+## Installation
+
+```
+npm install github:acodev/zip-bomb-detector-module
+```
+
 ## Usage
 
 ```js
