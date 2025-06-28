@@ -1,0 +1,31 @@
+{
+  "name": "@acodev/zip-bomb-detector-module",
+  "version": "1.0.0",
+  "description": "A Node.js module to detect potential zip bomb files safely.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prepare": "echo \"No build needed for JS\""
+  },
+  "author": "Gerardo Acosta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AcoDev/zip-bomb-detector-module.git"
+  },
+  "homepage": "https://github.com/AcoDev/zip-bomb-detector-module-module#readme",
+  "bugs": {
+    "url": "https://github.com/AcoDev/zip-bomb-detector-module-module/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.js",
+    "libs/"
+  ],
+  "dependencies": {
+    "@acodev/zip-bomb-detector": "file:",
+    "node-stream-zip": "^1.15.0"
+  }
+}
